@@ -1,2 +1,26 @@
 /muipro/node_modules
 /muipro/.env
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/muipro//.pnp
+/muipro/.pnp.js
+
+# testing
+/muipro//coverage
+
+# production
+/muipro//build
+
+# misc
+/muipro/.DS_Store
+/muipro/.env.local
+/muipro/.env.development.local
+/muipro/.env.test.local
+/muipro/.env.production.local
+
+/muipro/npm-debug.log*
+/muipro/yarn-debug.log*
+/muipro/yarn-error.log*
